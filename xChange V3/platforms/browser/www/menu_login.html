@@ -1,0 +1,41 @@
+
+<ons-page>
+  
+  <ons-toolbar id="menu_login">
+    <div class="center">Home</div>
+  </ons-toolbar>
+
+
+
+    <!--  <ons-toolbar>
+      <ons-if class="left" platform="android"></ons-if>
+      <div class="center" style="width: 100%">
+        <ons-if platform="android">android</ons-if>
+        <ons-if platform="ios other">ios</ons-if>
+      </div>
+      <ons-if class="right" platform="android">
+        <ons-toolbar-button ng-click="androidSearchModal.show(); ">
+          <ons-icon icon="md-search"></ons-icon>
+        </ons-toolbar-button>
+      </ons-if>
+    </ons-toolbar> -->
+
+
+
+
+    <!-- swipeable -->
+    <ons-tabbar position="bottom">
+     <!--  <ons-tab page="index.html" active icon="fa-sign-in" label="Login Screen"></ons-tab> -->
+     <ons-tab icon="fa-home" label="Home Screen" page="views/homepage.html"></ons-tab>
+     <ons-tab icon="fa-search" label="Search screen" page="views/search.html"></ons-tab>
+     <ons-tab icon="fa-envelope" label="Messages screen" badge="3" page="views/messages.html"></ons-tab>
+     <ons-tab icon="fa-user" label="Profile screen" page="views/profile.html"></ons-tab>
+     <ons-tab icon="fa-bars" label="Settings screen" page="views/settings.html"></ons-tab>
+     <!-- <ons-tab icon="fa-bars" label="Settings screen" onclick="fn.open()"></ons-tab> -->
+
+
+
+   </ons-tabbar>
+
+
+ </ons-page>
